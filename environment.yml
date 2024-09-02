@@ -1,0 +1,6 @@
+name: deploy_env
+
+dependencies:
+  - python
+  - pip-tools
+  
