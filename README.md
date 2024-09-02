@@ -14,7 +14,8 @@ Steps:
 
 4. Refer the model folder in api where we are saving the final model. In main.py file, code to accept the request and provide the response is given.
 
-5. In the test_connection  file sample code to send request and obtain the response is provided
+5. In the test_connection  file sample code to send request and obtain the response is provided. To run the server, execute the command <i>uvicorn main:app</i> from the 
+   location of main.py
 
 6. Finally, refer the Dockerfile which makes it easier to deploy the application across   environments without much additional integration steps. Use below codes to build and run the image.Docker should be installed before running the code
         
