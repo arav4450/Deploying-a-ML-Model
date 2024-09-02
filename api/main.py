@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 # Server
 
-from fastapi import FastAPI, Body
+from fastapi import FastAPI
 
 
 app = FastAPI()
@@ -25,9 +25,6 @@ class Data(BaseModel):
     Gender: list
     Age: list
     AnnualSalary: list
-        
-class Result(BaseModel):
-    Prediction: list
         
         
 @app.post("/predict")
